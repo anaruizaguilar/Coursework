@@ -1,10 +1,10 @@
-//Pseudocode: String alerting the user of the combination.
+//Pseudocode: Create a string alerting the user of the combination.
 const message = "You have received this message because you have been chosen to open an important vault. Here is the secret combination:"
-//Arithmetic function for variable A.
+//Assign an arithmetic function equaling 10 to variable A.
 const comboA = 5 * 2;
-//Arithmetic function for variable B.
+//Assign an arithmetic function equaling 40 to variable B.
 const comboB = 120 / 3;
-//Arithmetic function for variable C.
+//Assign an arithmetic function equaling 39 to variable C.
 const comboC = 25 + 14;
-//Dialog box showing the message + combination.
-console.log(message + comboA + comboB + comboC);
+//Create a dialog box showing the message + combination.
+alert(message + comboA + comboB + comboC);
