@@ -1,0 +1,76 @@
+@media (max-width: 1680px) {
+    .Grid-container{
+        margin: auto;
+    }
+    .Circles{
+        margin: auto;
+    }
+}
+.Grid-container {
+    display: grid;
+    padding: 20px;
+    margin: 20px;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.Box1 {
+    background-color: aquamarine;
+    grid-column: 1/4;
+    grid-row: 3;
+    height: 320%;    
+}
+.Box2 {
+    background-color: aquamarine;
+    height: 200%;
+}
+.Box3 {
+    background-color: aquamarine;
+    height: 200%;
+}
+.Box4 {
+    background-color: aquamarine;
+    height: 200%;
+}
+.Box5 {
+    background-color: seagreen;
+    grid-column: 1/4;
+    grid-row: 6;
+    height: 20%;
+    width: 100%;
+}
+.Circles {
+    position: relative;
+    display: flex;
+    z-index: auto;
+    height: 1ch;
+    left: 5%;
+    top: 30px;
+}
+.triangles{
+    position: relative;
+    z-index: auto;
+    bottom: 59ch;
+    left: 30ch;
+}
+.triangle1 {
+   height: 39px;
+   display: flex;
+   position: relative;
+   z-index: 3;
+   top: 15ch;
+   left: 33ch;
+}
+.triangle2 {
+    height: 200%;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    bottom: 2.5ch;
+    left: 4ch;
+}
+.form {
+    position: relative;
+    bottom: 450px;
+    left: 30px;
+    margin: 20px;
+}
