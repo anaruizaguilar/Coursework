@@ -1,0 +1,66 @@
+@media (max-width: 1680px) {
+    
+}
+.Boxes {
+    display: grid;
+    gap: 5px;
+    margin: 2px;
+}
+
+.Box1 {
+    background-color: cadetblue;
+    grid-row: 1;
+    height: 103px;
+    padding: 1px;
+    margin: 3px;
+}
+.Box2 {
+    background-color: cadetblue;
+    grid-row: 1;
+    padding-left: 15px;
+    margin: 3px;
+}
+.Box3 {
+    background-color: cadetblue;
+    grid-row: 1;
+    padding-left: 15px;
+    margin: 3px;
+}
+.Box4 {
+    background-color: cadetblue;
+    grid-row: 2;
+    height: 300px;
+}
+.Box5 {
+    background-color: darkgreen;
+    display: relative;
+    grid-row: 5;
+    margin: 3px;
+    width: 100%; 
+}
+.Circles {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    top: 20ch;
+    right: 3ch;
+}
+.triangles {
+    position: relative;
+    top: -430px;
+    left: 550px;
+}
+.triangle1 {
+    position: relative;
+    z-index: 1;
+    left: 20px;
+}
+.triangle2 {
+    position: relative;
+    z-index: 1;
+    right: -30ch;
+    bottom: 38ch;
+}
+.form {
+    margin: 30px;
+}
